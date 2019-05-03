@@ -632,7 +632,7 @@
 		case 2:
 			if(System.DateTime.Now.DayOfWeek == System.DayOfWeek.Wednesday) {
 				comb += 3;
-			} else if (Info.GetModuleNames ().Contains ("LEGO")) {
+			} else if (Info.GetModuleNames ().Contains ("LEGOs")) {
 				comb -= 2;
 			} else if (Info.GetBatteryCount (Battery.AA) + Info.GetBatteryCount (Battery.AAx3) + Info.GetBatteryCount (Battery.AAx4) > 2) {												//WARNING NEED TO KNOW AA>2
 				comb += 2;
